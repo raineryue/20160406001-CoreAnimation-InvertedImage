@@ -15,6 +15,7 @@
 		D59D3C811CB4B86600443460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D3C7F1CB4B86600443460 /* LaunchScreen.storyboard */; };
 		D59D3C8C1CB4B86600443460 /* _0160406001_CoreAnimation_InvertedImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3C8B1CB4B86600443460 /* _0160406001_CoreAnimation_InvertedImageTests.m */; };
 		D59D3C971CB4B86600443460 /* _0160406001_CoreAnimation_InvertedImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3C961CB4B86600443460 /* _0160406001_CoreAnimation_InvertedImageUITests.m */; };
+		D59D3CA61CB4BA0100443460 /* ReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CA51CB4BA0100443460 /* ReplicatorLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D59D3C921CB4B86600443460 /* 20160406001-CoreAnimation-InvertedImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160406001-CoreAnimation-InvertedImageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D3C961CB4B86600443460 /* _0160406001_CoreAnimation_InvertedImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160406001_CoreAnimation_InvertedImageUITests.m; sourceTree = "<group>"; };
 		D59D3C981CB4B86600443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D3CA41CB4BA0100443460 /* ReplicatorLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerView.h; sourceTree = "<group>"; };
+		D59D3CA51CB4BA0100443460 /* ReplicatorLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D59D3C751CB4B86600443460 /* AppDelegate.m */,
 				D59D3C771CB4B86600443460 /* ViewController.h */,
 				D59D3C781CB4B86600443460 /* ViewController.m */,
+				D59D3CA41CB4BA0100443460 /* ReplicatorLayerView.h */,
+				D59D3CA51CB4BA0100443460 /* ReplicatorLayerView.m */,
 				D59D3C7A1CB4B86600443460 /* Main.storyboard */,
 				D59D3C7D1CB4B86600443460 /* Assets.xcassets */,
 				D59D3C7F1CB4B86600443460 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59D3C791CB4B86600443460 /* ViewController.m in Sources */,
+				D59D3CA61CB4BA0100443460 /* ReplicatorLayerView.m in Sources */,
 				D59D3C761CB4B86600443460 /* AppDelegate.m in Sources */,
 				D59D3C731CB4B86600443460 /* main.m in Sources */,
 			);
